@@ -18,6 +18,11 @@ void input() {                                                          // Proce
     cout << "====================" << endl; // Output ke layar
     cout << "Masukan Elemen Array" << endl; // Output ke layar
     cout << "====================" << endl; // Output ke layar
+
+    for (int i = 0; i < n; i++) {               // Looping dengan i dimulai dari 0 hingga n-1
+        cout << "Data ke- " << (i + 1) << ": "; // Output ke layar
+        cin >> a[i];                            // Input dari pengguna
+    }
 }
 int main()
 {
