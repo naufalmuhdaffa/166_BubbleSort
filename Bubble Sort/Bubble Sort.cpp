@@ -14,6 +14,10 @@ void input() {                                                          // Proce
             cout << "\nArray dapat mempunyai maksimal 20 elemen.\n";    // Output ke layar
         }
     }
+    cout << endl;                           // Output baris kosong
+    cout << "====================" << endl; // Output ke layar
+    cout << "Masukan Elemen Array" << endl; // Output ke layar
+    cout << "====================" << endl; // Output ke layar
 }
 int main()
 {
